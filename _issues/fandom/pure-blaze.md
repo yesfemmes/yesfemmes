@@ -1,12 +1,12 @@
 ---
 layout: story-fandom
-lastname: Calavache 
+lastname: Calvache 
 firstname: Valentina
 subtitle: 
 title: Pure Blaze
 issue: fandom
 bio: |
-  M. Milks is the author of Kill Marguerite and Other Stories, winner of the 2015 Devil’s Kitchen Reading Award in Fiction and a Lambda Literary Award finalist; as well as three chapbooks, most recently The Feels, an exploration of fan fiction and affect. They are editor of The &NOW Awards 3: The Best Innovative Writing, 2011-2013 and co-editor of Asexualities: Feminist and Queer Perspectives.
+  Valentina Calvache is storyteller and translator concerned with the liminal intersections between fiction, media, and cultural production. Her most recent work has appeared in <i>Río Grande Review</i>, <i>Vice Colombia</i>, <i>Universo Centro</i>, and <i>Alchemy: Journal of Translation</i>. She is an MFA candidate at UCSD. Reach her at: valentina.calvache@gmail.com
 ---
 
 <style>
@@ -108,3 +108,10 @@ No. Why do you talk like a Mexican?</p>
 </div>
 </div>
 </div>
+
+<div class="section-three notes section">
+    <div class="inner-section-wrapper">
+    <div class="text-wrapper">
+        <p>{{page.bio}}</p>
+
+</div></div></div>

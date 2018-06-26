@@ -6,7 +6,7 @@ subtitle:
 title: Letters To Dead Rockstars
 issue: fandom
 bio: |
-  M. Milks is the author of Kill Marguerite and Other Stories, winner of the 2015 Devil’s Kitchen Reading Award in Fiction and a Lambda Literary Award finalist; as well as three chapbooks, most recently The Feels, an exploration of fan fiction and affect. They are editor of The &NOW Awards 3: The Best Innovative Writing, 2011-2013 and co-editor of Asexualities: Feminist and Queer Perspectives.
+  Temim Fruchter is a writer who lives in Washington, DC. She believes in stories and hot noodles and queer possibility. She is in the University of Maryland’s MFA program for fiction, and her chapbook, I Wanted Just To Be Soft, came out on Anomalous Press in April 2016. Her work has appeared in <i>[PANK]</i>, ​<i>Brevity</i>, ​<i>Tupelo Quarterly</i>, <i>The Washington City Paper</i>, <i>New South</i>, <i>jmww</i>, <i>Newfound</i>, <i>The Account</i>, and the <i>Tishman Review</i>, among others.​ More at temimfruchter.wordpress.com.​
 ---
 
 <style>
@@ -68,4 +68,9 @@ bio: |
 </div>
 </div>
 
+<div class="section-three notes section">
+    <div class="inner-section-wrapper">
+    <div class="text-wrapper">
+        <p>{{page.bio}}</p>
 
+</div></div></div>

@@ -1,6 +1,6 @@
 ---
 layout: story-fandom
-lastname: Van Dyck
+lastname: van Dyck
 firstname: Stephen
 subtitle: 
 title: Tori 4 Tori

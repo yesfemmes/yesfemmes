@@ -48,6 +48,36 @@ Can brown bourgeois boys love only brown bourgeois boys?</p>
 
 <p style="text-align: center;">Who do I pray to?</p>
 
+<p>On this occasion we will pray for nine nights.</p>
+
+<p>That is a novena.</p>
+<p>To grieve and to ask (whoever the fuck you want) to intercede on your behalf.</p>
+<p>The first time I remember a novena was when a beauty queen was in a porno with another beauty and
+some white man that probably, definitely, one or both of them loved. You know marriage, #power couple,
+all that.</p>
+<p>Perhaps I shouldn’t say this out loud, after all her mother prayer 9 days x 9 nights x 9 lifetimes
+to undo the images &mdash;</p>
+<p>What if being the image that gives pleasure is pleasurable? I don’t know. Not a thing I’ve heard the
+participants talk about, the pleasure of being seen – after all it was a violation but...</p>
+<p>She got watched more, a reality show, a fashion line, a video game, selfie nation. More images to replace
+those images.</p>
+<p>You know which ones.</p>
+<p>The ones taken from behind, that wide open...</p>
+
+<p>Let us pray.</p>
+<p>Not despite of it but because of it.</p>
+<p>Was this the answer to the prayers?It all gets mixed up when the avatar doesn’t talk back.</p>
+<p>I was in school with the beauty queen’s brother at the time.</p>
+<p>And the boys used to pass the pictures around on their phones in class.</p>
+<p>THE BOYS TOUCH THEIR CROTCHES and then they’d look at the brother and say
+hey sweet ass, you like to take it in the ass too?</p>
+<p>The boys’ toilets were covered in moss, the floors covered in water, flooded, an underwater
+chamber.</p>
+<p>We pray to you, Our lady of the moss and fur and wet sweetness, the lick green in betweens. The boys school used to call Friday Frigay And all of the boys who could would dress in short pants
+and slap each other’s asses and titter. Except his.</p>
+
+<p>The girls school had slap ass Thursdays. It might not have been Thursday</p>
+
 <p>Those that see the god that rules the color see the color.<br>
 Oh&mdash;fuck Aphrodite! Goddesses of Kano, Ogun <br>
 turning Hades, churning underwater heat&mdash;I am reminded<br>
@@ -61,7 +91,7 @@ I could make this sadness an island.</p>
 
 <p>I’ve decided to ball all my self-hatred and regret into my work. All the making and unmaking and anxiety&mdash;I’m just going to make something that’s not myself. Like this institute. And my bed. I’m going to make my bed. I could lie in it.</p>
 
-<p>There’s a Sex and the City episode where Carrie is broken up with on a post-it and then goes to a club called Bed. It’s smokey and gauzy and everyone’s lying on beds in full make-up which really makes me wonder about the sheets. Like that whole wiped off face off makeup on the sheets question.</p>
+<p>There’s a <i>Sex and the City</i> episode where Carrie is broken up with on a post-it and then goes to a club called Bed. It’s smokey and gauzy and everyone’s lying on beds in full make-up which really makes me wonder about the sheets. Like that whole wiped off face off makeup on the sheets question.</p>
 <p>Well anyway she goes there and she meets her new ex’s friends there, also lounging and makes a fool of herself there.</p>
 
 <p>See? I say that to prove something about the meaning of the bed.</p>
@@ -78,7 +108,7 @@ Let my worries disperse.</p>
 <p>I tried to do a meditation called Interdimensional Connectedness. It made me feel hungover, plus all I could see was Carrie Bradshaw on that stupid bed with that post-it. This was a Youtube video, obviously, BECAUSE HOW ELSE DO I DO A CONNECTEDNESS MEDITATION&mdash;from my own head? from leaving my own bed? All the comments were things like</p>
 
 
-<p><strong>Graham Nordac</strong>&nbsp;&nbsp;&nbsp;&nbsp;1 year ago<br>
+<p><strong>Gemini Queendom</strong>&nbsp;&nbsp;&nbsp;&nbsp;1 year ago<br>
 think about it guys. if it’s your multidimensional self, it’s doing the exact same thing but in a different reality. So while you’re trying to connect with them they are all trying to connect with you, and I also just sent this message to all of them in a different reality layout.</p>
 
 <p><strong>GenXer82 GenXer82</strong>&nbsp;&nbsp;&nbsp;&nbsp;1 year ago<br>Within just 5 minutes, I was at the place where all dimensions of the universe intersect with

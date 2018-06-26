@@ -101,7 +101,7 @@ bio: |
     <p>In <i>The Ladies Almanack</i> the voice of the narrator which is not one<sup>2</sup> states by way of introduction:</p>
     
     <div class="inset"><p>Monique Wittig: <span style="background-color: #0affa8;">Our story is not comprehensive nor symbolic, but small and hard and real for some. Perhaps for many. Because a lesbian is a real thing, insistent if unpopular. A perspective, specific and narrow. How to speak with a collective, but non-generalized voice?</span></p>
-<p>Hélène Cixous: <span style="background-color: #0affa8;">How to live crying out with frightened joy over the pitfall of words? Fortunately, when someone says woman we still don’t know what that means. Even if we know what we want to mean.</span></p>
+<p>Hélène Cixous: <span style="background-color: #0affa8;">How to live crying out with frightened joy over the pitfall of words? Fortunately, when someone says woman we still don’t know what that means. Even if we know what we want to mean.<sup>3</sup></span></p>
 <p>Luce Irigiray: <span style="background-color: #0affa8;">Who we address, a very special audience, as Barnes herself will come to say, that selective sisterhood is perhaps less necessary to know: for they will know themselves.</span></p></div>
 
 
@@ -146,15 +146,30 @@ bio: |
 
 
 
-</div>
 
-</div>
+
 </div><!-- /section one -->
     
 
 </div><!-- /section-story -->
 
-</div>
 
+
+</div><!-- / text-wrapper -->
+
+
+
+
+
+<div class="section-footnotes section">
+    <div class="inner-section-wrapper">
+    <p><sup>1</sup>JT Bruns, Silver Field multiple, “Always Look Back”, 2016. Pictured here is the Keychain purchased from the artist which hangs above my desk.</p>
+    <p><sup>2</sup> See Luce Irigiray, “The Sex Which is not One,” 1977. In <i>The Ladies Almanack</i> Irigiray, Cixous, and Wittig are cast as the three voices of the narrator, meeting the women of ’28 and those of ’16 halfway in time, an essential if unseen link in the chain. </p>
+    <p><sup>3</sup> Throughout the film, almost all the words spoken by the voice of Cixous are her own quotes, pulled from various texts in inserted into script.</p>
+    <p><sup>4</sup>For my definition of lesbian, See “No City for A Young Soul” WALLSDIVIDE PRESS, 2016.</p>
+    
+       
+</div>
+</div><!-- /section-footnotes -->
 
 
