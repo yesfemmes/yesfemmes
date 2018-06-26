@@ -49,7 +49,7 @@ background-image: radial-gradient(50% 50%, #8553FB -100%, #fff 95%);
 
 <div class="section-main section">
                 <div class="inner-section-wrapper">
-          <div class="video-wrapper"><div class="video" data-type="youtube" data-video-id="N1scsJEpNRk"></div></div>
+          <div class="video-wrapper"><div class="video" data-type="vimeo" data-video-id="216427433"></div></div>
 
 </div><!-- /inner-section-wrapper -->
 </div><!-- /section-main -->

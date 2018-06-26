@@ -14,7 +14,7 @@ bio: |
 <style>
 
 .section-intro {
-    background: url('http://127.0.0.1:4000/assets/images/issues/02_fandom/clark-artemisa-reperforming-ana-mendieta-MattSavitsky9.jpg') no-repeat;
+    background: url('{{ site.baseurl }}/assets/images/issues/02_fandom/clark-artemisa-reperforming-ana-mendieta-MattSavitsky9.jpg') no-repeat;
         background-size: cover;
     background-position: center;
 
