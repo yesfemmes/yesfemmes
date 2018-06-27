@@ -18,7 +18,7 @@ bio: |
 
 .section img {
     position: absolute;
-    bottom: 10%;
+    top: 5%;
     right: 6%;
 }
 
@@ -144,10 +144,6 @@ bio: |
 <p>3. <span style="background-color: #0affa8;">Deep professional and emotional commitments to one another that do not shy away from discomfort or pain but rely on the basic rule that nobody owns anybody.</span></p>
 
 
-
-
-
-
 </div><!-- /section one -->
     
 
@@ -163,7 +159,7 @@ bio: |
 
 <div class="section-footnotes section">
     <div class="inner-section-wrapper">
-    <p><sup>1</sup>JT Bruns, Silver Field multiple, “Always Look Back”, 2016. Pictured here is the Keychain purchased from the artist which hangs above my desk.</p>
+    <p><sup>1</sup>JT Bruns, Silver Field multiple, “Always Look Back”, 2016.</p>
     <p><sup>2</sup> See Luce Irigiray, “The Sex Which is not One,” 1977. In <i>The Ladies Almanack</i> Irigiray, Cixous, and Wittig are cast as the three voices of the narrator, meeting the women of ’28 and those of ’16 halfway in time, an essential if unseen link in the chain. </p>
     <p><sup>3</sup> Throughout the film, almost all the words spoken by the voice of Cixous are her own quotes, pulled from various texts in inserted into script.</p>
     <p><sup>4</sup>For my definition of lesbian, See “No City for A Young Soul” WALLSDIVIDE PRESS, 2016.</p>

@@ -16,33 +16,10 @@ bio: |
 <style>
 
 
-.section-img {
-    position: relative;
+.section-intro img {
+    width: 100%;
 }
 
-.section-img img {
-   position: absolute;
-    top: 17%;
-    right: 8%;
-    width: 50%;
-}
-
-.section-intro .title-info {
-    left: 15%;
-    position: absolute;
-    top: 19%;
-    width: 80%;
-
-}
-
-.fandom-page-wrapper .story-title {
-    text-align: left;
-}
-
-.section-story img {
-    filter: none;
-    opacity: 1;
-}
 
 
 
@@ -74,14 +51,12 @@ bio: |
 
 </style>
 
-
 <div class="section-intro section">
-    <div class="section-img item">
-            <img src="{{ site.baseurl }}/assets/images/issues/02_fandom/mrs-bailey.jpg">
-        </div>
-                             {% include _fandom/titles.html %}
-</div><!-- /section-intro -->
-
+            <div class="inner-section-wrapper">
+            {% include _fandom/titles.html %}
+<img src="{{ site.baseurl }}/assets/images/issues/02_fandom/mrs-bailey.jpg">
+</div>
+</div>
 <div class="section-one section">
     <div class="inner-section-wrapper">
     <div class="text-wrapper">
@@ -211,14 +186,6 @@ make tea for mrs. bailey.</p>
 </div>
 </div><!-- /section-essay-preface -->
 
-<div class="section-two notes section gray-border">
-    <div class="inner-section-wrapper">
-    <div class="text-wrapper">
-        <p>* This sound work was recorded while driving across the country researching travel sites that were listed in the Green Book, travel companion for African-American travelers. As a part of this project, I set up a Google Voice number where friends could call in and wish me well on my travels. For the first piece, I juxtaposed those well wishes, with conservative radio/ ideaologies that I met on the road. This piece serves as an exploration of the limitations (in terms of the history of criminalization and violence) placed on black and non-white people as we move through space.</p> 
-
-</div></div></div>
-
-</div></div></div>
 <div class="section-three notes section">
     <div class="inner-section-wrapper">
     <div class="text-wrapper">

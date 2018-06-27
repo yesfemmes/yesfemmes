@@ -204,7 +204,7 @@
     content: 'MENU';
     position: absolute;
     top: 50%;
-    right: -26px;
+    right: -18px;
     line-height: 2em;
     letter-spacing: .5em;
     color: #000;
@@ -1559,5 +1559,37 @@ p.bio {
 
 
 
+/*Issues Page */
+
+    .issues-wrapper {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      font-family: 'Inconsolata', monospace;
+      padding-top: 8%;
+  }
+
+  .issue-item {
+   padding-bottom: 2em;
+  }
+
+  .title-details {
+    display: flex;
+  }
+
+  .issue-item h1 {
+    line-height: normal;
+    font-size: 2.5em;
+  }
+
+  .issue-item p {
+  font-size: 1.6em;
+  }
+  
+  .issue-item h1 span {
+    font-size: .5em;
+  }
 
 

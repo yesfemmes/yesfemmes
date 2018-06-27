@@ -12,6 +12,45 @@ bio: |
 <style>
 
 
+.fandom-page-wrapper .section-img {
+    width: 75%;
+}
+.section img {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 80%;
+}
+
+.section-intro .title-info {
+    left: 15%;
+    position: absolute;
+    
+
+    top: 34%;
+    width: 90%
+
+}
+
+.fandom-page-wrapper .story-title {
+    text-align: left;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .section-intro .title-info {
+        top: 19%;
+         width: 33%;
+         left: 18%;
+        }
+
+    .section img {
+        top: 15%;
+        width: 30%;
+        right: 20%;
+    }
+}
+
 
 
 .story-title {
@@ -37,21 +76,48 @@ bio: |
 
 </style>
 
+ 
 
-<div class="story-wrapper">
-
-	<div class="section-intro section">
-            <div class="inner-section-wrapper">
-			{% include _fandom/titles.html %}
-            </div>
+<div class="section-intro section">
+    <div class="section-img">
+            <img src="{{ site.baseurl }}/assets/images/issues/02_fandom/valley-of-the-dolls.jpg" />
+    </div>
+        {% include _fandom/titles.html %}
 </div><!-- /section-intro -->
-<div class="section-main-section"><div class="inner-section-wrapper">
-    <div class="text-wrapper"><p>I read Valley of the Dolls before bed at my parents house. Woke up with one arm twisted behind my neck and the other groping madly at the air in my childhood waterbed.</p>
+
+<div class="section-one section"><div class="inner-section-wrapper">
+    <div class="text-wrapper">
+        <p>I read Valley of the Dolls before bed at my parents house. Woke up with one arm twisted behind my neck and the other groping madly at the air in my childhood waterbed.</p>
+
     <p>“I am in New York” said Anne. Said Neely. Said Jennifer. I was in San Diego wishing to be in New York by spring 2005. I arrived in the ancestral home in San Diego in retrograde of Anne shedding her ancestral home in Lawrenceville. Anne moving into the rooming house with Neely O’Hara. The casting off the old simple Anne to be first a girl Friday and then a cover girl for Gilmore.</p>
+
     <p>Deviant in the face of product-oriented economic logics, this project does not intend to draw conclusions, state facts, or conclude any kinds of clear theses. It engages activities that probably seem pointless, wasteful, or unproductive to those stranded in heternormative temporalities. Rather, queers, women, people of color, frustrated heteros, those marginalized can find an invigorating essence to take beyond the dominant prescribed methods of identification and inheritance in the face of violence, oppression, erasure and loss.</p>
+
     <p>Dionne Warwick sang on the Valley of the Dolls soundtrack, “Got to get up. Got to get out. Time to find life on my own. Got to get up. Got to get on. Got to get off of this ride. Got to get. Got to find. Need to get hold of my pride.”</p>
+
     <p>In San Diego I tried to get ahold of my pride. I was barely still alive after leaving San Francisco. The shedding like the viral shedding of my herpes. San Diego was the interim casting off beween San Francisco’s drug addiction and Los Angeles’ graduate studies.</p>
-    <p>When I got to CalArts in 2006 I listened to the Valley of the Dolls record over and over. I had the record cover pinned to my dorm room wall. As I became an artist I spit myself out. I gave birth to myself amid the violence of sobs and vomit at CalArts.</p><p>I read Valley of the Dolls over and over when I should have been doing homework. Reading Naked Lunch. Susann’s heroine Anne in her rosy bed with arms groping at the sky knew none of my scholastic troubles. She grasped at her fabulous future. As I grasped at my fabulous hoped-for future beyond graduate school in Los Angeles.</p><p>Gold was the ring that Allen Cooper gave to Anne in Valley of the Dolls to seduce her at El Morocco with la pouvoir de son richesse. Far from jouissance. It’s the simple crass fact of the matter. Money controls everything. I knew that then and now. </p><p>What drove me from San Francisco in the end was that all of my posings and archings won me none in terms of such husbandry but much in terms of unsavory, exorbitant habits. The vehement self-destructiveness of the jouissance I learned about in grad school. Drugs. The little death of Bataille. Thanatos. The death-drive to annihilate. To explode into “Forget Domani” as Sinatra sang. I couldn’t do drugs anymore if I wanted to live. I had to go on.</p><p>I turned back to Valley of the Dolls. Anne Welles put on her Gilmore Girl face. Went to lunch with Lyon Burke, her paramour who just arrived back from WWII. Lyon wanted to write a novel. So did I. </p><p>“I read an article once…” Siouxsie and the Banshee’s “Ninety-Two Degrees” begins with this phrase. “I read an article once that said more murders are committed at 92 degrees then many other temperature…It’s just 92, people get irritable.”</p><p>No. No. The article I read said that 81% of all Americans believe they have a novel in them and only a minute percentage actually do the work of writing the novel. No one wants to actually sit down and write that book. The article cited this. Mainly that people just wanted to publish one and get a following. Get famous, as happens to so few writers. I wanted literary fame so badly that I could taste it. Ever elusive.</p><p>When I was in San Francisco, drifting around in nightclubs with feathers in my hair, I heard a lot of young men say that they could write a novel. They just had to sit down and do it. I would take them home with me. Show them Jet Set Desolate. See what they thought.</p><p>Some said, “Slapstick sex farce. Does this get deeper?” Some decided I was Anais Nin. Score. Fundamentally it was the lonely writer’s pathetic plea for validation. I’m still that way. If you read me, I’m thrilled.</p><p>Look at me! I do something! It is valuable even though nobody understands it. I wrote in complete isolation in San Francisco and San Diego. I believed no-one would ever publish me beyond Internet porn. I didn’t have hot hipster small press connections. I had few friends at CalArts then and now because I am so narcissistic.</p> <p>Writing was indeed a pathetic plea for validation in and of itself. I did that a lot. That’s what Twitter and Facebook were all about to me beyond even networking or self-expression.</p>
+
+    <p>When I got to CalArts in 2006 I listened to the Valley of the Dolls record over and over. I had the record cover pinned to my dorm room wall. As I became an artist I spit myself out. I gave birth to myself amid the violence of sobs and vomit at CalArts.</p>
+
+    <p>I read Valley of the Dolls over and over when I should have been doing homework. Reading Naked Lunch. Susann’s heroine Anne in her rosy bed with arms groping at the sky knew none of my scholastic troubles. She grasped at her fabulous future. As I grasped at my fabulous hoped-for future beyond graduate school in Los Angeles.</p>
+
+    <p>Gold was the ring that Allen Cooper gave to Anne in Valley of the Dolls to seduce her at El Morocco with la pouvoir de son richesse. Far from jouissance. It’s the simple crass fact of the matter. Money controls everything. I knew that then and now. </p>
+
+    <p>What drove me from San Francisco in the end was that all of my posings and archings won me none in terms of such husbandry but much in terms of unsavory, exorbitant habits. The vehement self-destructiveness of the jouissance I learned about in grad school. Drugs. The little death of Bataille. Thanatos. The death-drive to annihilate. To explode into “Forget Domani” as Sinatra sang. I couldn’t do drugs anymore if I wanted to live. I had to go on.</p>
+
+    <p>I turned back to Valley of the Dolls. Anne Welles put on her Gilmore Girl face. Went to lunch with Lyon Burke, her paramour who just arrived back from WWII. Lyon wanted to write a novel. So did I. </p>
+
+    <p>“I read an article once…” Siouxsie and the Banshee’s “Ninety-Two Degrees” begins with this phrase. “I read an article once that said more murders are committed at 92 degrees then many other temperature…It’s just 92, people get irritable.”</p>
+
+    <p>No. No. The article I read said that 81% of all Americans believe they have a novel in them and only a minute percentage actually do the work of writing the novel. No one wants to actually sit down and write that book. The article cited this. Mainly that people just wanted to publish one and get a following. Get famous, as happens to so few writers. I wanted literary fame so badly that I could taste it. Ever elusive.</p>
+
+    <p>When I was in San Francisco, drifting around in nightclubs with feathers in my hair, I heard a lot of young men say that they could write a novel. They just had to sit down and do it. I would take them home with me. Show them Jet Set Desolate. See what they thought.</p>
+
+    <p>Some said, “Slapstick sex farce. Does this get deeper?” Some decided I was Anais Nin. Score. Fundamentally it was the lonely writer’s pathetic plea for validation. I’m still that way. If you read me, I’m thrilled.</p>
+
+    <p>Look at me! I do something! It is valuable even though nobody understands it. I wrote in complete isolation in San Francisco and San Diego. I believed no-one would ever publish me beyond Internet porn. I didn’t have hot hipster small press connections. I had few friends at CalArts then and now because I am so narcissistic.</p> 
+
+    <p>Writing was indeed a pathetic plea for validation in and of itself. I did that a lot. That’s what Twitter and Facebook were all about to me beyond even networking or self-expression.</p>
 
 <p>“Did you read my story? What did you think?” I asked my classmates.</p>
 
@@ -75,9 +141,9 @@ bio: |
 
 <p>My yearning for connection was so impossible. So apart. That yearning that blanched me out from intangible passion to the crushing entirety of defeat. Of denial. Of solitude. It wasn’t until I became active on Twitter in 2014 that I found the validation and witnessing that I craved.</p>
 
-<p>I was thirty living in a dorm in 2007. Single. Getting older. Unlike Anne. Neely. Jennifer.
+<p>I was thirty living in a dorm in 2007. Single. Getting older. Unlike Anne. Neely. Jennifer.</p>
 
-<p>I watched my DVD of Valley of the Dolls over and over on my computer. Memorized the dialogue. 
+<p>I watched my DVD of Valley of the Dolls over and over on my computer. Memorized the dialogue. </p>
 
 <p>Jennifer was a shapely blonde played by dead Sharon Tate in the film. A showgirl. Not a primpriss and a fuckup. I could identify less with Jennifer. Except for her feeling that all she had going for her was her body.</p>
 
@@ -87,7 +153,7 @@ bio: |
 
 <p>Neely failed at Hollywood each time. So did I. The few times I even dared to try. Most of my lines were cut from the final cut of the student film because I didn’t enunciate loud enough. I hid my humiliation at the screening. Didn’t push for my colleagues to put me on the film screening flyer. I knew my bits mostly ended up on the cutting room floor.</p>
 
-<p>Neely took sleeping pills. I took Ativan daily. Neely coated her hair in beeswax. Refused to sleep with her Vidal Sassoon Gore Vidal husband. Ignored her two children because what use do children have in this world, anyway? Other than to ruin dinners at nice restaurants. To incapacitate most of the population so they couldn’t get in my way. 
+<p>Neely took sleeping pills. I took Ativan daily. Neely coated her hair in beeswax. Refused to sleep with her Vidal Sassoon Gore Vidal husband. Ignored her two children because what use do children have in this world, anyway? Other than to ruin dinners at nice restaurants. To incapacitate most of the population so they couldn’t get in my way.</p>
 
 <p>I was never a breeder. It’s not a responsible choice for anyone including the child given my situation.</p>
 
@@ -110,7 +176,12 @@ bio: |
 <p>Valley of the Dolls is the body text beneath most of my work. My mentor Matias Viegener encouraged this. He loved Valley of the Dolls too.</p>
 
 <p>“I kicked pills, booze and the funny farm, I don’t need anybody or anything,” said Neely O’Hara. Words to live by.</p>
-</div><!-- /text wrapper -->
-</div><!-- /inner-section-wrapper -->
-</div><!-- /section-main -->
-</div><!-- end story-wrapper -->
+</div></div></div>
+
+
+<div class="section-three notes section">
+    <div class="inner-section-wrapper">
+    <div class="text-wrapper">
+         <p>Andrea Lambert is the author of <i>Jet Set Desolate</i> (Future Fiction London, 2009) <i>Lorazepam & the Valley of Skin: Extrapolations on Los Angeles</i> (valeveil, 2009) and the chapbook <i>G(u)ilt</i> (Lost Angelene, 2011). Her work has appeared in <i>HTMLGIANT</i>, <i>3:AM Magazine</i>, <i>Off The Rocks</i>, <i>Queer Mental Health</i>, and others. Former co-curator of the Featherless Reading Series. Editor at Lost Angelene. Artist. CalArts MFA. Reed BA. She is working on an autobiographical fantasy called <i>Diary of a Hollywood Hedgewitch.</i> Find her online at <a href="http://www.andreaklambert.com">andreaklambert.com</a></p></div></div></div>
+
+

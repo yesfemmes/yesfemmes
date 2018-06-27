@@ -19,7 +19,7 @@ bio: |
 .section-intro .inner-section-wrapper {
     background: #8553FB;
     width: 75%;
-    height: 82vh;
+    height: 65vh;
     box-shadow: 0 0 2em #0affa8;
    
 
@@ -29,17 +29,13 @@ bio: |
     padding-top: 2em;
 }
 
-.fandom-page-wrapper .title-info, .fandom-page-wrapper .story-title {
-    text-align: left;
-    margin-left: 1.5%;
-}
+
 
 .section-intro .text-wrapper {
     position: absolute;
-    width: 35%;
-    left: 17%;
+    width: 50%;
     color: white;
-    top: 25%;
+    top: 37%;
 }
 
 

@@ -7,30 +7,13 @@ permalink: /issues/
 
 <style>
 
+   
+
+.issue-item a {
+  text-decoration: underline;
+}
+
     
-    
-
-    .issues-wrapper {
-    	width: 50%;
-    	margin-left: auto;
-		  margin-right: auto;
-		left: 0;
-		right: 0;
-        font-family: 'Inconsolata', monospace;
-
-
-    }
-
-  .issue-item h1 {
-    line-height: normal;
-  }
-
-
-	
-  .issue-item h1 span {
-    font-size: .5em;
-  }
-
 
 </style>
 <div class="page-issues">
@@ -38,7 +21,7 @@ permalink: /issues/
 <div class="issues-wrapper cv">
   <div class="issue-item">
   
-  <h1><span>Current</span><br>Fandom Issue</h1>
+  <h1><span>Current</span><br><a class="issues-current-browse" href="#">Fandom Issue</a></h1>
   <p>This issue explores fandom as an orientation. This issue wonders what happens when we approach the world with gushiness and a desire to connect, desire to become. It contains too-deep reads, desparate-but-wrong reads, inappropriate mashups, and creepy overidentifications. The Fandom Issue is interested in mapping the worlds that emerge when we embrace and express our fannishness, in how identities and communities form in response to what we love. It looks into the ways pop culture icons, dead poets, and out-of-print books have opened portals to worlds, created models for the possible, or simply kept us alive.</p>  
  
 	</div>

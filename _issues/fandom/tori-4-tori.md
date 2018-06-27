@@ -98,6 +98,10 @@ font-size: .6em;
     width: 50%;
 }
 
+.entry p.fw {
+    width: 100%;
+}
+
 </style>
 
 
@@ -118,7 +122,7 @@ font-size: .6em;
         <p><span class="purple">website:</span><br>AOL chat room</p>
         <p><span class="purple">date:</span><br> March 1998</p>
         <p><span class="purple">location:</span><br>Albuquerque, NM</p>
-        <p><span class="purple">summary of meeting:</span><br> found him outside school</p>
+        <p class="fw"><span class="purple">summary of meeting:</span><br> found him outside school</p>
         <p><span class="purple">times met:</span><br>met in person at least 5 times</p>
         <p><span class="purple">sex:</span><br>-</p>
 
@@ -156,7 +160,7 @@ had a crush on me. That was not long before I had to buy a second <i>Jagged Litt
         <p>website:<br> AOL chat room</p>
         <p>date:<br> April 1999</p>
         <p>location<br>Albuquerque, NM</p>
-        <p>summary of meeting:<br> drove around, jacked off in car, talked</p>
+        <p class="fw">summary of meeting:<br> drove around, jacked off in car, talked</p>
         <p>times met:<br>met 99+ times</p>
         <p>sex:<br>mutual j/o</p>
     </div>
@@ -178,7 +182,7 @@ had a crush on me. That was not long before I had to buy a second <i>Jagged Litt
         <p>website:<br> xanga.com</p>
         <p>date:<br> June 2004</p>
         <p>location:<br>Newport Beach, CA</p>
-        <p>summary of meeting:<br> sucked each other off to good music</p>
+        <p class="fw">summary of meeting:<br> sucked each other off to good music</p>
         <p>times met: <br>met  once</p>
         <p>sex:<br>got naked, oral</p>
     </div>

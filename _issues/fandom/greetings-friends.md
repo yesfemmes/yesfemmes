@@ -20,15 +20,14 @@ bio: |
 
 }
 
-.fandom-page-wrapper .title-info, .fandom-page-wrapper .story-title {
-    text-align: left;
-    margin-left: 1.3%;
+.fandom-page-wrapper .title-info {
+    padding-top: 3em;
 }
+
 
 .section-intro .text-wrapper {
     position: absolute;
     width: 55%;
-    left: 17%;
     color: white;
     top: 30%;
 }
@@ -74,7 +73,7 @@ bio: |
             </div>
     <div class="text-wrapper"><p>Greetings Friends is a passage from his full-length essay film titled after a Disney Studio produced film. In 1941 the United States government created the Office of Inter-American Affairs, stemmed from a growing concern of potential Nazi infiltration in Latin America. They hired Walt Disney to produce animated cartoons, most of which focused upon Latin America as subject. These videos took on health issues such as malaria, water treatment and tuberculosis, while also producing animated characters as visual representations for these countries. In Greeting Friends, Pescador reconsiders these films and their relationship between cultural diplomacy and colonialism. In examining the regions that Walt Disney visited and documented, Pescador attempts to understand how Disney iconography is still being culturally appropriated today.</p>
 
-    <p style="font-size: smaller; text-align: center;">&darr; scroll for video &darr; </p>
+    <p style="margin-top: 3em; font-size: smaller; text-align: center;">&darr; scroll for video &darr; </p>
 
 </div>
 

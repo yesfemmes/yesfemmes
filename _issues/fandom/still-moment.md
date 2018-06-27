@@ -19,21 +19,17 @@ bio: |
 .section-intro .inner-section-wrapper {
     background: #8553FB;
     width: 75%;
-    height: 78vh;
+    height: 75vh;
     box-shadow: 0 0 2em #0affa8;
    
 
 }
 
-.fandom-page-wrapper .title-info, .fandom-page-wrapper .story-title {
-    text-align: left;
-    margin-left: 4.3%;
-}
+
 
 .section-intro .text-wrapper {
     position: absolute;
     width: 35%;
-    left: 17%;
     color: white;
     top: 35%;
 }
@@ -73,7 +69,7 @@ bio: |
             </div>
     <div class="text-wrapper"><p>a still moment: a diva under a spotlight; abject, unruly fragments, constantly transforming; simultaneous cheering, booing, laughing. divas themselves are mechanisms for the workings of power through discourse; they invoke an identification in the viewer—a sign of objectification for the subjugation of the viewer.  what if the exemplary diva was one of formlessness? an amorphous shit blob coming together and falling apart and fading in and out--no race, gender, etc..</p>
 
-    <p style="font-size: smaller; text-align: center;">&darr; scroll for video &darr; </p>
+    <p style="margin-top: 3em; font-size: smaller; text-align: center;">&darr; scroll for video &darr; </p>
 
 </div>
 

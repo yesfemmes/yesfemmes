@@ -34,7 +34,7 @@ $( ".main-menu" ).click(function() {
 
 
 
-$( ".browse-side-wrapper" ).click(function() {
+$( ".browse-side-wrapper, .issues-current-browse" ).click(function() {
   $(".browse-menu").toggleClass( "expand-right");
 });
 

@@ -1,6 +1,6 @@
 ---
 layout: story-fandom
-lastname: Agyeman-Agard
+lastname: Agard
 firstname: Katherine
 subtitle: 
 title: Meditation in the Institute for Lonely Creole Girls
@@ -55,7 +55,7 @@ Can brown bourgeois boys love only brown bourgeois boys?</p>
 <p>The first time I remember a novena was when a beauty queen was in a porno with another beauty and
 some white man that probably, definitely, one or both of them loved. You know marriage, #power couple,
 all that.</p>
-<p>Perhaps I shouldn’t say this out loud, after all her mother prayer 9 days x 9 nights x 9 lifetimes
+<p>Perhaps I shouldn’t say this out loud, after all her mother prayed 9 days x 9 nights x 9 lifetimes
 to undo the images &mdash;</p>
 <p>What if being the image that gives pleasure is pleasurable? I don’t know. Not a thing I’ve heard the
 participants talk about, the pleasure of being seen – after all it was a violation but...</p>
@@ -78,8 +78,7 @@ and slap each other’s asses and titter. Except his.</p>
 
 <p>The girls school had slap ass Thursdays. It might not have been Thursday</p>
 
-<p>Those that see the god that rules the color see the color.<br>
-Oh&mdash;fuck Aphrodite! Goddesses of Kano, Ogun <br>
+<p>Oh&mdash;fuck Aphrodite! Goddesses of Kano, Ogun <br>
 turning Hades, churning underwater heat&mdash;I am reminded<br>
 that there are two Aphrodites anyway, one the Venus from<br>
 the lips of the waves, the other sullen, on earth,<br> 
@@ -135,4 +134,10 @@ In all universes reaching out to ask myself with is real.</p>
 </div><!-- / section one -->
 
 
+<div class="section-three notes section">
+    <div class="inner-section-wrapper">
+    <div class="text-wrapper">
+         <p>TKatherine is a Gemini. That's really all you need to know. Her work varies by context, and often exists simultaneously in different forms. Mostly writing, painting and performance. She likes viscous liquids and soft objects, and her material practice currently centers around chocolate, milk and oil. She likes to talk about colorism, class, labor and belief mostly. She is from Trinidad and Tobago and recently graduated from UC - San Diego with an MFA in Writing. Hit her up at  <a href="http://www.katherineatkatherine.com">www.katherineatkatherine.com</a> if you want her to experimentally read your cards. Seriously.</p>
+
+</div></div></div>
     

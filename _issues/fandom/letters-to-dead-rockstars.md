@@ -19,6 +19,10 @@ bio: |
     width: 80%;
 }
 
+.fandom-page-wrapper .section-img {
+    width: 80%;
+}
+
 .section-intro .title-info {
     left: 15%;
     position: absolute;

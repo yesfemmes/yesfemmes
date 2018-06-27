@@ -17,18 +17,28 @@ bio: |
     background: url('{{ site.baseurl }}/assets/images/issues/02_fandom/clark-artemisa-reperforming-ana-mendieta-MattSavitsky9.jpg') no-repeat;
         background-size: cover;
     background-position: center;
+    position:relative;
 
+}
+
+.photo-credit {
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    text-align: right;
 }
  
  p img {
     margin: 1.5em 0;
  }
 
+
+
 </style>
 
 <div class="section-intro section">
     <div class="inner-section-wrapper">{% include _fandom/titles.html %}</div>
-
+<div class="photo-credit"><figcaption>Photo by Joshua Chambers-Letson</figcaption></div>
 </div><!-- /section-intro -->
 
 <div class="section-intro-text section">
@@ -60,29 +70,23 @@ Artemisa Clark<br>
 <p>For the past five years, I have been developing a body of work based on reconstructing and re-performing segments of the life and work of Ana Mendieta. About the <i>Siluetas</i>, Mendieta said that the “obsessive act of reasserting [her] ties with the earth is an objectification of [her] existence.”<sup>3</sup>  The repetition of her work and story in my own work is my obsessive act of reasserting my ties to Mendieta, objectifying her and my existence. These attempted re-assertions, however, always fail, in both our cases: Mendieta never quite finds home; I never quite find Mendieta.  Our work insists on and produces constant, repetitive movement met with constant, repetitive failure. My works do not attempt to resolve or prove anything. They are reconstructions that display specific practices and information to move towards emotional, rather than evidence-based, truths.</p>
 
 
-<p> <img class="border" src="{{ site.baseurl }}/assets/images/issues/02_fandom/clark-artemisa-reperforming-ana-mendieta-MattSavitsky6.jpg"></p>
+ <figure><img class="border" src="{{ site.baseurl }}/assets/images/issues/02_fandom/clark-artemisa-reperforming-ana-mendieta-MattSavitsky6.jpg">
+  <figcaption>Photo by Matt Savitsky</figcaption>
+</figure>
 
 <p>Performance studies scholar Rebecca Schneider defines performance reenactments not as separate from the original acts they attempt to recreate, but as “the ongoing event itself, negotiated through sometimes-radically shifting affiliation with the past as the present.”<sup>4</sup> I try to keep Mendieta’s work alive while also examining the ways in which she used her practice as an embodied survival tactic for someone who felt she had no home, whose narrative was constantly being erased, questioned, or fetishized by those around her.</p>
-
-
 </div>
 </div>
 </div><!-- /section-essay-preface -->
-
-</div>
 <div class="section-footnotes section">
     <div class="inner-section-wrapper">
+    <div class="text-wrapper">
     <p><sup>1</sup><a href="https://www.newyorker.com/magazine/2011/12/05/the-materialist">https://www.newyorker.com/magazine/2011/12/05/the-materialist</a></p>
     <p><sup>2</sup>Mendieta, Ana. <i>Dialectics of Isolation: An Exhibition of Third World Women Artists.</i> New York, NY: A.I.R. Gallery, 1980. 1. Print.</p>
     <p><sup>3</sup> Mendieta, Ana. “A Selection of Statements and Notes.” <i>A Tribute to Ana Mendieta.</i> By Linda Montano. Spec. issue of Sulfur 22 (1988): 70-74. Print.</p>
     <p><sup>4</sup>Schneider, Rebecca. <i>Performing Remains: Art and War in Times of Theatrical Reenactment.</i> London: Routledge, 2011. 32. Print.</p>
-   
-       
-</div>
-</div><!-- /section-footnotes -->
+   </div>
+    </div><!-- /section-footnotes -->
+    </div><!-- / text-wrapper -->
 
-</div><!-- / text-wrapper -->
-
-</div><!-- / inner-section-wrapper-->
-</div><!-- / section-intro-text-->
 <div class="story-bio section"><div class="inner-section-wrapper"><div class="text-wrapper"><p>{{page.bio}}</p></div></div></div>
