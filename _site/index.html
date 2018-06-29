@@ -314,27 +314,17 @@ document.body.onkeyup = function(e){
 
 
 .intro-wrapper {
+   
+    
+    width: 90%;
     height: 300px;
-    width: 500px;
-    margin: 5% auto;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    perspective: 9999px;
-    transform-style: preserve-3d;
-    display: none;
+
+
 }
 
 .intro {
 
 	  width: 100%;
-    height: 100%;
-    position: absolute;
-    transform-style: preserve-3d;
-    /*transform: rotateY(10deg) rotateX(33deg) translateZ(0px);*/
-    /*animation: 5s ease-in-out -7.5s infinite alternate forwards intro;*/
     font-family: 'Pirata One', cursive;
     color: #8553FB;
 
@@ -351,14 +341,13 @@ document.body.onkeyup = function(e){
 
 
 .intro:after {
-    font-size: 14em;
+    font-size: 7em;
     content: 'FANDOM';
     white-space: pre;
     text-align: center;
     height: 90%;
     width: 90%;
     position: absolute;
-    top: 50px;
     letter-spacing: -2px;
     /* text-shadow: 4px 0 10px rgba(0, 0, 255, 0.13); */
     letter-spacing: .08em;
@@ -377,10 +366,12 @@ document.body.onkeyup = function(e){
 }
 
 @media only screen and (min-width: 768px) {
-    .intro-wrapper {
-         height: 300px;
-        width: 500px;
+    
+    .intro:after {
+      font-size: 14em;
+
     }
+
 }
 
 	
@@ -440,7 +431,7 @@ document.body.onkeyup = function(e){
 </div><!-- end group-two -->
 
 
-<div class="intro-wrapper">
+<div class="intro-wrapper cvh">
 <div class="intro"></div>
 </div>
 </div><!-- end landing wrapper -->
