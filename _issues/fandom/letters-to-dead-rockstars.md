@@ -43,6 +43,7 @@ bio: |
     .fandom-page-wrapper .section-img {
     width: 80%;
     height: 70vh;
+
 }
     .section-intro .title-info {
         top: 19%;
@@ -50,8 +51,9 @@ bio: |
         }
 
     .section img {
-        bottom: 10%;
-        width: 65%;
+        width: 40%;
+        top: 24%;
+        right: 16%;
     }
 }
 
