@@ -88,8 +88,9 @@ bio: |
 }
 
 .section img {
-    bottom: 7%;
-    right: 6%;
+    bottom: 17%;
+    right: 14%;
+    width: 40%;
 }
 
 .entry {
@@ -118,7 +119,7 @@ bio: |
 
 
 <div class="section-intro section">
-<div class="section-img item">
+<div class="section-img">
             <img src="{{ site.baseurl }}/assets/images/issues/02_fandom/vandyck-stephen-tori-4-tori.jpg"></div>			
         {% include _fandom/titles.html %}
 </div><!-- /section-intro -->

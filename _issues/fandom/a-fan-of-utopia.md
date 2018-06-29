@@ -122,7 +122,7 @@ bio: |
 
 
 <div class="section-intro section">
-    <div class="intro-quotes item"><p>The women say that they perceive their bodies in their entirety…</p><p style="text-align: right;">…The women affirm in triumph that all action is overthrow.</p><p style="text-align: right;">—Monique Wittig, Les Guérillères, 1969</p>
+    <div class="intro-quotes"><p>The women say that they perceive their bodies in their entirety…</p><p style="text-align: right;">…The women affirm in triumph that all action is overthrow.</p><p style="text-align: right;">—Monique Wittig, Les Guérillères, 1969</p>
             </div>
 <div class="section-img item">
             <img src="{{ site.baseurl }}/assets/images/issues/02_fandom/a-fan-of-utopia.jpg"></div>         
