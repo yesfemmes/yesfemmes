@@ -1363,6 +1363,9 @@ body.issue-fandom {
         text-decoration-line: underline;
         text-decoration-style: wavy; }
 
+@media screen and (min-width: 768px) {
+  .index p a span {
+    display: none; } }
 .current-issue h1 {
   text-transform: uppercase;
   color: #8553FB;

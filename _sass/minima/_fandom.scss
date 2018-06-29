@@ -49,10 +49,25 @@ body.issue-fandom {
     text-decoration-line: underline;
     text-decoration-style: wavy;
     }
+
+
+
+
+
     }
   }
 
   }
+
+    @include media-query($on-tablet) {
+
+    .index {
+      p a span {
+      display: none;
+      }
+    }
+
+}
 
   .current-issue h1 {
     text-transform: uppercase;
