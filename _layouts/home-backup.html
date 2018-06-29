@@ -5,28 +5,26 @@ layout: default
 <style>
 
 
-/* glitchy 
-.group a {
-
-  cursor: url('/assets/images/yes-femmes-cursor-2.ico'), auto;
-
-}
-
-*/
-
-
 .intro-wrapper {
    
-    
-    width: 90%;
-    height: 300px;
-
-
+    margin: 5% auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    perspective: 9999px;
+    transform-style: preserve-3d;
+    width: 100%;
 }
 
 .intro {
 
 	  width: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    /*transform: rotateY(10deg) rotateX(33deg) translateZ(0px);*/
+    /*animation: 5s ease-in-out -7.5s infinite alternate forwards intro;*/
     font-family: 'Pirata One', cursive;
     color: #8553FB;
 
@@ -43,13 +41,14 @@ layout: default
 
 
 .intro:after {
-    font-size: 7em;
+    font-size: 14em;
     content: 'FANDOM';
     white-space: pre;
     text-align: center;
     height: 90%;
-    width: 100%;
+    width: 90%;
     position: absolute;
+    top: 50px;
     letter-spacing: -2px;
     /* text-shadow: 4px 0 10px rgba(0, 0, 255, 0.13); */
     letter-spacing: .08em;
@@ -68,12 +67,10 @@ layout: default
 }
 
 @media only screen and (min-width: 768px) {
-    
-    .intro:after {
-      font-size: 14em;
-
+    .intro-wrapper {
+         height: 300px;
+        width: 500px;
     }
-
 }
 
 	
@@ -133,7 +130,7 @@ layout: default
 </div><!-- end group-two -->
 
 
-<div class="intro-wrapper cvh">
+<div class="intro-wrapper">
 <div class="intro"></div>
 </div>
 </div><!-- end landing wrapper -->
