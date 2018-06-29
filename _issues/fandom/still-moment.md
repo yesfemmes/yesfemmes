@@ -10,28 +10,25 @@ bio: |
 ---
 
 <style>
-
-
-
-
-
-
 .section-intro .inner-section-wrapper {
     background: #8553FB;
-    width: 75%;
-    height: 75vh;
+    width: 90%;
+    height: 100%;
     box-shadow: 0 0 2em #0affa8;
    
 
 }
 
-
+.fandom-page-wrapper .title-info {
+    padding-top: 2em;
+}
 
 .section-intro .text-wrapper {
     position: absolute;
-    width: 35%;
+    width: 75%;
     color: white;
-    top: 35%;
+    top: 22%;
+    left: 10%;
 }
 
 
@@ -53,9 +50,31 @@ bio: |
 
 .section-main .inner-section-wrapper {
     width: 75%;
+
 }
 
+@media only screen and (min-width: 768px) {
 
+.section-intro .inner-section-wrapper {
+   
+    width: 75%;
+    height: 75vh;
+
+}
+
+.section-intro .text-wrapper {
+
+    left: auto;
+    width: 60%;
+    top: 35%;
+
+
+}
+.fandom-page-wrapper .title-info {
+    padding-top: 5em;
+}
+
+}
 
 
 
@@ -67,7 +86,7 @@ bio: |
             <div class="inner-section-wrapper">
 			{% include _fandom/titles.html %}
             </div>
-    <div class="text-wrapper"><p>a still moment: a diva under a spotlight; abject, unruly fragments, constantly transforming; simultaneous cheering, booing, laughing. divas themselves are mechanisms for the workings of power through discourse; they invoke an identification in the viewer—a sign of objectification for the subjugation of the viewer.  what if the exemplary diva was one of formlessness? an amorphous shit blob coming together and falling apart and fading in and out--no race, gender, etc..</p>
+<div class="text-wrapper"><p>a still moment: a diva under a spotlight; abject, unruly fragments, constantly transforming; simultaneous cheering, booing, laughing. divas themselves are mechanisms for the workings of power through discourse; they invoke an identification in the viewer—a sign of objectification for the subjugation of the viewer.  what if the exemplary diva was one of formlessness? an amorphous shit blob coming together and falling apart and fading in and out--no race, gender, etc..</p>
 
     <p style="margin-top: 3em; font-size: smaller; text-align: center;">&darr; scroll for video &darr; </p>
 
@@ -75,12 +94,8 @@ bio: |
 
 
 </div><!-- /section-intro -->
-
-
-</div>
 <div class="section-main section full-height flex-center">
                 <div class="inner-section-wrapper">
 <div class="video-wrapper"><div class="video" data-type="youtube" data-video-id="65x2xclLqn8"></div></div>
 </div>
 </div><!-- /section-main -->
-</div><!-- /section-essay -->

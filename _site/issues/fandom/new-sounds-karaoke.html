@@ -46,7 +46,7 @@
 </div>
 <div class="main-menu side-nav">
 <nav>
-  <div class="menu-item-wrapper cv">
+  <div class="menu-item-wrapper cvh">
   <h1><a href="/">Home</a></h1>
   <h1><a href="/issues">Issues</a></h1>
   <h1><a href="/about">About</a></h1>
@@ -314,7 +314,7 @@
  
 
 <p><a href="/issues/fandom/you-make-me-feel-alive-alive-alive">&xlarr;  </a></p>
-<p><a href="/issues/fandom/tori-4-tori">&xrarr;</a></p>
+<p><a href="/issues/fandom/tori-4-tori">&#x27F6;</a></p>
 
 <script>
 /* post pagination keyboard shortcuts */
@@ -348,15 +348,10 @@ document.body.onkeyup = function(e){
 
     <style>
 
-
-
-
-
-
 .section-intro .inner-section-wrapper {
     background: #8553FB;
-    width: 75%;
-    height: 65vh;
+    width: 90%;
+    height: 155%;
     box-shadow: 0 0 2em #0affa8;
    
 
@@ -370,9 +365,10 @@ document.body.onkeyup = function(e){
 
 .section-intro .text-wrapper {
     position: absolute;
-    width: 50%;
+    width: 75%;
     color: white;
-    top: 37%;
+    top: 23%;
+    left: 10%;
 }
 
 
@@ -396,7 +392,22 @@ document.body.onkeyup = function(e){
     width: 75%;
 }
 
+@media only screen and (min-width: 768px) {
 
+.section-intro .inner-section-wrapper {
+    
+    width: 75%;
+    height: 75vh;
+}
+
+.section-intro .text-wrapper {
+    
+    width: 50%;
+    top: 30%;
+    left: auto;
+}
+
+}
 
 
 
@@ -427,7 +438,6 @@ document.body.onkeyup = function(e){
 </div>
 <!-- /section-intro -->
 
-<p>&lt;/div&gt;</p>
 <div class="section-main section full-height flex-center">
                 <div class="inner-section-wrapper">
 <div class="video-wrapper"><div class="video" data-type="vimeo" data-video-id="27051838"></div></div>

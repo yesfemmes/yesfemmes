@@ -20,7 +20,7 @@ bio: |
 }
 
 .fandom-page-wrapper .section-img {
-    width: 80%;
+    width: 90%;
 }
 
 .section-intro .title-info {
@@ -39,6 +39,11 @@ bio: |
 
 
 @media only screen and (min-width: 768px) {
+
+    .fandom-page-wrapper .section-img {
+    width: 80%;
+    height: 70vh;
+}
     .section-intro .title-info {
         top: 19%;
          width: 33%;
@@ -46,7 +51,7 @@ bio: |
 
     .section img {
         bottom: 10%;
-        width: 58%;
+        width: 65%;
     }
 }
 
@@ -56,7 +61,7 @@ bio: |
 
 
 <div class="section-intro section">
-    <div class="section-img item"><!--<img src="{{ site.baseurl }}/assets/images/issues/02_fandom/fruchter-temim-dead-rockstars_1.jpg">-->
+    <div class="section-img"><!--<img src="{{ site.baseurl }}/assets/images/issues/02_fandom/fruchter-temim-dead-rockstars_1.jpg">-->
             <img src="{{ site.baseurl }}/assets/images/issues/02_fandom/fruchter-temim-dead-rockstars_2.jpg">
         <!--<img src="{{ site.baseurl }}/assets/images/issues/02_fandom/fruchter-temim-dead-rockstars_3.jpg">--></div>
 			{% include _fandom/titles.html %}

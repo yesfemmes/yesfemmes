@@ -15,6 +15,10 @@ bio: |
     margin: 1.5em 0;
  }
 
+ .fandom-page-wrapper blockquote {
+    margin: 1.5em auto;
+ }
+
 </style>
 
 

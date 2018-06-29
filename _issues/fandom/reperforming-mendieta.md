@@ -26,12 +26,21 @@ bio: |
     position: absolute;
     bottom: 0;
     text-align: right;
+    right: 30px;
+    font-size: .8em;
 }
  
  p img {
     margin: 1.5em 0;
  }
 
+@media only screen and (min-width: 768px) {
+
+.photo-credit {
+    right: 60px;
+}
+
+}
 
 
 </style>

@@ -51,9 +51,13 @@ p img {
             width: 45%;
     }
 
+    .fandom-page-wrapper .section-img {
+        height: 65vh;
+    }
+
     .section-img img {
-        width: 50%;
-        top: 22%;
+        width: 66%;
+        top: 13%
     }
 }
     
@@ -62,7 +66,7 @@ p img {
 
 
 <div class="section-intro section">
-    <div class="section-img item">
+    <div class="section-img">
             <img src="{{ site.baseurl }}/assets/images/issues/02_fandom/brown-jhanelle-too-much-emotional-trauma-with-my-kpop-2.jpg">
         </div>
 			                 {% include _fandom/titles.html %}

@@ -61,7 +61,7 @@ figcaption {
  * Lists
  */
 ul, ol {
-  margin-left: 30px;
+  margin-left: 0;
   list-style: none; }
 
 li > ul,
@@ -253,7 +253,7 @@ pre {
   .logo h1 {
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 1.8em;
+    font-size: 1em;
     text-align: center;
     letter-spacing: .25em; }
   .logo a {
@@ -354,13 +354,13 @@ pre {
     height: 100%;
     position: relative; }
   .main-menu .menu-item-wrapper h1 a {
-    font-size: 7rem; }
+    font-size: 6rem; }
 
 .main-menu:before {
   content: 'MENU';
   position: absolute;
   top: 50%;
-  right: -18px;
+  right: -25px;
   line-height: 2em;
   letter-spacing: .5em;
   color: #000;
@@ -421,7 +421,7 @@ pre {
   content: 'BROWSE';
   position: absolute;
   top: 50%;
-  left: -40px;
+  left: -41px;
   letter-spacing: .5em;
   color: #000;
   line-height: 2em;
@@ -454,6 +454,9 @@ pre {
   .browse-menu {
     right: calc(-50% + 50px);
     /* use this for laptop */ }
+
+  .main-menu:before {
+    right: -18px; }
 
   .main-menu:before, .browse-menu:before {
     font-size: 1em; }
@@ -488,7 +491,7 @@ pre {
   text-transform: uppercase;
   letter-spacing: .13em;
   text-align: center;
-  font-size: 1.8em;
+  font-size: 1.5em;
   background: none;
   color: #0affa8; }
 
@@ -883,6 +886,9 @@ img.kenburns {
 
 */
 /* ABOUT */
+.page-about {
+  padding-top: 10%; }
+
 .hp-about {
   position: absolute;
   top: 0;
@@ -891,11 +897,11 @@ img.kenburns {
 
 .copy {
   font-family: 'Inconsolata', monospace;
-  width: 90%;
+  width: 80%;
   padding-top: 30px;
   letter-spacing: .06em;
   line-height: 2;
-  font-size: .7em;
+  font-size: 1.1em;
   margin: 1em auto;
   text-align: justify;
   padding-bottom: 35px;
@@ -905,6 +911,9 @@ img.kenburns {
   color: #000; }
 
 @media screen and (min-width: 800px) {
+  .page-about {
+    padding-top: 0; }
+
   .copy {
     width: 50%;
     font-size: 1em;
@@ -915,8 +924,6 @@ img.kenburns {
     position: absolute;
     z-index: 999999;
     */
-    height: 100vh;
-    overflow: hidden;
     background: #fff;
     top: 0;
     position: relative; }
@@ -924,11 +931,7 @@ img.kenburns {
       width: 43%;
       font-size: 1.2em;
       margin-top: 0;
-      padding-top: 4em;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%); } }
+      padding-top: 10%; } }
 .highlight-pink {
   background-color: #F74DEB;
   padding: 5px; }
@@ -1098,7 +1101,7 @@ img.kenburns {
   -o-animation: yfgradient 12s ease infinite;
   animation: yfgradient 12s ease infinite; }
 
-.story-title {
+.issue-first .story-title {
   font-family: "Montserrat", sans-serif;
   font-size: 2em;
   font-weight: 700;
@@ -1174,7 +1177,8 @@ img.kenburns {
   .menu-index .index p {
     text-align: left;
     font-size: .9em;
-    padding-top: 13px; }
+    padding-top: 13px;
+    content: 'i dunno'; }
   .menu-index .index p.title-prev span, .menu-index .index p.title-next span {
     display: none; }
   @media screen and (min-width: 800px) {
@@ -1283,35 +1287,55 @@ p.bio {
   top: 50%;
   transform: translateY(-50%); }
 
+.cvh {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
 .border {
   border: 1px solid #eee; }
 
 /*Issues Page */
+.page-issues {
+  padding-top: 10%; }
+
 .issues-wrapper {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
   font-family: 'Inconsolata', monospace;
-  padding-top: 8%; }
+  padding-top: 8%;
+  width: 80%;
+  margin: 0 auto;
+  text-align: justify; }
 
 .issue-item {
   padding-bottom: 2em; }
+
+.issue-item p {
+  font-size: 1.1em; }
 
 .title-details {
   display: flex; }
 
 .issue-item h1 {
   line-height: normal;
-  font-size: 2.5em; }
-
-.issue-item p {
-  font-size: 1.6em; }
+  font-size: 2em; }
 
 .issue-item h1 span {
   font-size: .5em; }
 
+@media screen and (min-width: 800px) {
+  .page-issues {
+    padding-top: 0; }
+
+  .issues-wrapper {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0; }
+
+  .issue-item p {
+    font-size: 1.4em; } }
 body.issue-fandom {
   /* Reset 100% height on parent containers */ }
   body.issue-fandom .container, body.issue-fandom .page-content, body.issue-fandom .wrapper, body.issue-fandom .page-wrapper {
@@ -1352,7 +1376,7 @@ body.issue-fandom {
 
 .titles-wrapper, .authors-wrapper {
   text-align: center;
-  font-size: 1.25em; }
+  font-size: .9em; }
 
 .fhvh {
   height: 100vh; }
@@ -1363,7 +1387,7 @@ body.issue-fandom {
   color: #8553FB;
   text-transform: uppercase;
   letter-spacing: .3em;
-  font-size: 1.2em;
+  font-size: .9em;
   text-decoration-line: underline;
   text-decoration-style: wavy; }
 
@@ -1374,11 +1398,17 @@ body.issue-fandom {
     margin-left: 0;
     justify-content: space-around; }
 
+  .issue-label, .issue-no {
+    font-size: 1.2em; }
+
   .logo {
     display: block; }
 
   .menu-index {
-    background: none; } }
+    background: none; }
+
+  .titles-wrapper, .authors-wrapper {
+    font-size: 1.25em; } }
 .fandom-page-wrapper a {
   color: #0affa8;
   text-decoration: underline; }
@@ -1387,7 +1417,6 @@ body.issue-fandom {
   height: auto; }
 .fandom-page-wrapper .section-intro {
   padding: 5em 1em;
-  min-height: 90vh;
   position: relative;
   display: flex;
   justify-content: center;
@@ -1408,19 +1437,22 @@ body.issue-fandom {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase; }
 .fandom-page-wrapper .story-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .13em;
   text-align: center;
   font-size: 8vw;
-  color: #0affa8;
-  webkit-background-clip: unset;
-  -webkit-text-fill-color: unset;
-  -webkit-text-stroke-width: 0px;
-  -webkit-text-stroke-color: unset; }
+  color: #0affa8; }
 .fandom-page-wrapper .author-title {
   /*font-family: 'Inconsolata', monospace;*/ }
 .fandom-page-wrapper .text-wrapper {
   padding: 2em .5em;
-  font-size: 1.5rem;
-  text-align: justify; }
+  font-size: 1.2rem;
+  /*
+  text-align: justify;
+  */ }
 .fandom-page-wrapper .video-wrapper {
   padding: 0;
   border: 5px solid #0affa8; }
@@ -1456,8 +1488,10 @@ body.issue-fandom {
     .fandom-page-wrapper .story-title {
       font-size: 9vw; }
     .fandom-page-wrapper .text-wrapper {
-      padding: 2em 1.3em; }
+      padding: 2em 1.3em;
+      font-size: 1.5rem; }
     .fandom-page-wrapper .section-intro {
+      min-height: 90vh;
       padding: 3em; }
     .fandom-page-wrapper .section-img {
       width: 85%; }
@@ -1470,7 +1504,7 @@ body.issue-fandom {
 .fandom-page-wrapper .story-heading {
   font-family: 'Pirata One', cursive;
   color: #8553FB;
-  font-size: 4rem; }
+  font-size: 3rem; }
 .fandom-page-wrapper blockquote {
   border-left: 4px solid #0affa8;
   color: #ffffff;
@@ -1483,7 +1517,9 @@ body.issue-fandom {
   border-top: 1px solid #eee; }
 @media screen and (min-width: 800px) {
   .fandom-page-wrapper blockquote {
-    padding: 2em; } }
+    padding: 2em; }
+  .fandom-page-wrapper .story-heading {
+    font-size: 4rem; } }
 
 /**
  * Syntax highlighting styles

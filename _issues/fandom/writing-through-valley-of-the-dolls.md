@@ -13,7 +13,7 @@ bio: |
 
 
 .fandom-page-wrapper .section-img {
-    width: 75%;
+    width: 90%;
 }
 .section img {
     position: absolute;
@@ -38,6 +38,11 @@ bio: |
 
 
 @media only screen and (min-width: 768px) {
+
+    .fandom-page-wrapper .section-img {
+    width: 75%;
+    height: 70vh;
+}
     .section-intro .title-info {
         top: 19%;
          width: 33%;
@@ -45,7 +50,7 @@ bio: |
         }
 
     .section img {
-        top: 15%;
+        top: 23%;
         width: 30%;
         right: 20%;
     }

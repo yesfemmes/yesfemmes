@@ -44,7 +44,7 @@
     h1 {
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 1.8em;
+    font-size: 1em;
     text-align: center;
     letter-spacing: .25em;
     }
@@ -53,6 +53,8 @@
       color: #000;
     }
 }
+
+
 
 .site-title {
   font-size: 26px;
@@ -195,7 +197,7 @@
     .menu-item-wrapper {
 
           h1 a {
-            font-size: 7rem;
+            font-size: 6rem;
           }
     }
 }
@@ -204,7 +206,7 @@
     content: 'MENU';
     position: absolute;
     top: 50%;
-    right: -18px;
+    right: -25px;
     line-height: 2em;
     letter-spacing: .5em;
     color: #000;
@@ -287,7 +289,7 @@
     content: 'BROWSE';
     position: absolute;
     top: 50%;
-    left: -40px;
+    left: -41px;
     letter-spacing: .5em;
     color: #000;
     line-height: 2em;
@@ -331,8 +333,13 @@
 
       }
 
+      .main-menu:before {
+      right: -18px;
+      }
+
       .main-menu:before, .browse-menu:before {
         font-size: 1em;
+
       }
 
         .expand-right {
@@ -383,7 +390,7 @@
   text-transform: uppercase;
   letter-spacing: .13em;
   text-align: center;
-  font-size: 1.8em;
+  font-size: 1.5em;
   background: none;
   color: #0affa8;
 }
@@ -968,6 +975,11 @@ img.kenburns {
 
 /* ABOUT */
 
+
+.page-about {
+  padding-top: 10%;
+}
+
 .hp-about {
   
       position: absolute;
@@ -979,11 +991,11 @@ img.kenburns {
 .copy {
       
       font-family: 'Inconsolata', monospace;
-      width: 90%;
+      width: 80%;
       padding-top: 30px;
       letter-spacing: .06em;
       line-height: 2;
-      font-size: .7em;
+      font-size: 1.1em;
        margin: 1em auto;
       text-align: justify;
       padding-bottom: 35px;
@@ -995,6 +1007,11 @@ img.kenburns {
 }
 
   @include media-query($on-laptop) {
+
+
+  .page-about {
+  padding-top: 0;
+  }
 
 .copy {
   
@@ -1010,8 +1027,6 @@ img.kenburns {
     position: absolute;
     z-index: 999999;
     */
-    height: 100vh;
-    overflow: hidden;
     background: #fff;
     top: 0;
     position: relative;
@@ -1022,11 +1037,8 @@ img.kenburns {
       width: 43%;
       font-size: 1.2em;
       margin-top: 0;
-      padding-top: 4em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+      padding-top: 10%;
+    
     }
 
 
@@ -1307,7 +1319,7 @@ background-size: 400% 400%;
 animation: yfgradient 12s ease infinite;
 }
 
-.story-title {
+.issue-first .story-title {
   font-family: $base-font-family;
   font-size: 2em;
   font-weight: 700;
@@ -1394,6 +1406,7 @@ box-shadow: 0 0 1em $pink;
     text-align: left;
     font-size: .9em;
     padding-top: 13px;
+    content: 'i dunno';
   }
 
 
@@ -1552,6 +1565,13 @@ p.bio {
 
 }
 
+.cvh {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .border {
       border: 1px solid #eee;
 
@@ -1561,19 +1581,28 @@ p.bio {
 
 /*Issues Page */
 
-    .issues-wrapper {
-      width: 50%;
-      margin-left: auto;
-      margin-right: auto;
-      left: 0;
-      right: 0;
-      font-family: 'Inconsolata', monospace;
-      padding-top: 8%;
+  .page-issues {
+  padding-top: 10%;
   }
 
-  .issue-item {
+    .issues-wrapper {
+     font-family: 'Inconsolata', monospace;
+      padding-top: 8%;
+      width: 80%;
+      margin: 0 auto;
+      text-align: justify;
+
+    }
+
+    .issue-item {
    padding-bottom: 2em;
   }
+
+    .issue-item p {
+
+      font-size: 1.1em;
+    }
+
 
   .title-details {
     display: flex;
@@ -1581,15 +1610,37 @@ p.bio {
 
   .issue-item h1 {
     line-height: normal;
-    font-size: 2.5em;
+    font-size: 2em;
   }
 
-  .issue-item p {
-  font-size: 1.6em;
-  }
+
   
   .issue-item h1 span {
     font-size: .5em;
   }
+
+  @include media-query($on-laptop) {
+
+
+   .page-issues {
+  padding-top: 0;
+  }
+
+    .issues-wrapper {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+     
+  }
+
+    .issue-item p {
+  font-size: 1.4em;
+  }
+
+}
+
+  
 
 

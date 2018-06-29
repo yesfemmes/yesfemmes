@@ -46,7 +46,7 @@
 </div>
 <div class="main-menu side-nav">
 <nav>
-  <div class="menu-item-wrapper cv">
+  <div class="menu-item-wrapper cvh">
   <h1><a href="/">Home</a></h1>
   <h1><a href="/issues">Issues</a></h1>
   <h1><a href="/about">About</a></h1>
@@ -314,7 +314,7 @@
  
 
 <p><a href="/issues/fandom/a-fan-of-utopia">&xlarr;  </a></p>
-<p><a href="/issues/fandom/new-sounds-karaoke">&xrarr;</a></p>
+<p><a href="/issues/fandom/new-sounds-karaoke">&#x27F6;</a></p>
 
 <script>
 /* post pagination keyboard shortcuts */
@@ -349,6 +349,7 @@ document.body.onkeyup = function(e){
     <style>
 
 
+
 .section {
     height: 100vh;
 }
@@ -357,8 +358,9 @@ document.body.onkeyup = function(e){
     display: none;
 }
 
-.section-intro {
+.fandom-page-wrapper .section-intro {
       height: 100vh;
+      padding-top: 0;
 
 }
 
@@ -390,7 +392,7 @@ document.body.onkeyup = function(e){
 
 .section-intro .title-info {
    
-    width: 55%;
+    width: 80%;
     padding-top: 0;
 
 }
@@ -413,6 +415,22 @@ document.body.onkeyup = function(e){
 
 p img {
   margin: 1.5em auto;
+}
+
+@media only screen and (min-width: 768px) {
+
+
+.fandom-page-wrapper .section-intro {
+  padding-top: 5em;
+
+}
+
+.section-intro .title-info {
+   
+    width: 55%;
+
+}
+
 }
     
 
@@ -440,8 +458,8 @@ p img {
 
 
             <img src="/assets/images/issues/02_fandom/nick-rhodes.jpg" />
-        </div>
-<p>&lt;/div&gt;<!-- /section-intro --></p>
+</div>
+<!-- /section-intro -->
 
 <div class="section-story">
 

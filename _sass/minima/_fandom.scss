@@ -71,7 +71,7 @@ body.issue-fandom {
 
   .titles-wrapper, .authors-wrapper {
     text-align: center;
-    font-size: 1.25em;
+    font-size: .9em;
   }
 
 
@@ -86,7 +86,7 @@ body.issue-fandom {
   color: #8553FB;
   text-transform: uppercase;
   letter-spacing: .3em;
-  font-size: 1.2em;
+  font-size: .9em;
   text-decoration-line: underline;
   text-decoration-style: wavy; 
 
@@ -102,12 +102,22 @@ body.issue-fandom {
   justify-content: space-around;
   }
 
+  .issue-label, .issue-no {
+    font-size: 1.2em;
+
+  }
+
   .logo {
   display: block;
   }
 
   .menu-index {
   background: none;
+  }
+
+  .titles-wrapper, .authors-wrapper {
+      font-size: 1.25em;
+
   }
 
   }
@@ -127,7 +137,6 @@ body.issue-fandom {
 
   .section-intro {
   padding: 5em 1em;
-  min-height: 90vh;
   position: relative;
   display: flex;
   justify-content: center;
@@ -159,13 +168,15 @@ body.issue-fandom {
   }
 
   .story-title {
+  font-family: $base-font-family;
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .13em;
     text-align: center;
     font-size: 8vw; 
     color: #0affa8;
-     webkit-background-clip: unset;
-    -webkit-text-fill-color: unset;
-    -webkit-text-stroke-width: 0px;
-    -webkit-text-stroke-color: unset;
+     
   }
 
   .author-title {
@@ -177,8 +188,10 @@ body.issue-fandom {
 
   .text-wrapper {
     padding: 2em .5em;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    /*
     text-align: justify;
+    */
 }
 
   .video-wrapper {
@@ -234,10 +247,12 @@ body.issue-fandom {
 
 .text-wrapper {
   padding: 2em 1.3em;
+  font-size: 1.5rem
 }
 
 .section-intro {
-  
+
+  min-height: 90vh;
   padding: 3em;
 }
 
@@ -267,7 +282,7 @@ body.issue-fandom {
 .story-heading {
   font-family: 'Pirata One', cursive;
   color: #8553FB;
-  font-size: 4rem;
+  font-size: 3rem;
 
 }
 
@@ -292,6 +307,10 @@ blockquote {
   padding: 2em;
 }
 
+
+.story-heading {
+  font-size: 4rem;
+}
 }
 
 

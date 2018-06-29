@@ -12,6 +12,7 @@ bio: |
 <style>
 
 
+
 .section {
     height: 100vh;
 }
@@ -20,8 +21,9 @@ bio: |
     display: none;
 }
 
-.section-intro {
+.fandom-page-wrapper .section-intro {
       height: 100vh;
+      padding-top: 0;
 
 }
 
@@ -53,7 +55,7 @@ bio: |
 
 .section-intro .title-info {
    
-    width: 55%;
+    width: 80%;
     padding-top: 0;
 
 }
@@ -77,6 +79,22 @@ bio: |
 p img {
   margin: 1.5em auto;
 }
+
+@media only screen and (min-width: 768px) {
+
+
+.fandom-page-wrapper .section-intro {
+  padding-top: 5em;
+
+}
+
+.section-intro .title-info {
+   
+    width: 55%;
+
+}
+
+}
     
 
 </style>
@@ -91,7 +109,6 @@ p img {
 			                 {% include _fandom/titles.html %}
 
             <img src="/assets/images/issues/02_fandom/nick-rhodes.jpg">
-        </div>
 </div><!-- /section-intro -->
 
 

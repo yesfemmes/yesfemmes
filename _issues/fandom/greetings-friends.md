@@ -13,8 +13,8 @@ bio: |
 
 .section-intro .inner-section-wrapper {
     background: #8553FB;
-    width: 75%;
-    height: 78vh;
+    width: 90%;
+    height: 190%;
     box-shadow: 0 0 2em #0affa8;
    
 
@@ -27,9 +27,10 @@ bio: |
 
 .section-intro .text-wrapper {
     position: absolute;
-    width: 55%;
+    width: 75%;
     color: white;
-    top: 30%;
+    top: 18%;
+    left: 10%;
 }
 
 
@@ -63,7 +64,22 @@ bio: |
     background-image: radial-gradient(100% 100%, #8553FB 10%, #fff 50%);
 }
 
+@media only screen and (min-width: 768px) {
     
+    .section-intro .inner-section-wrapper {
+    width: 75%;
+    height: 78vh;
+
+    }
+
+    .section-intro .text-wrapper {
+        left: auto;
+        width: 65%;
+        top: 27%;
+
+    }
+
+}    
 
 </style>
 

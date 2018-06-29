@@ -22,7 +22,7 @@ bio: |
 .section-intro .title-info {
     left: 15%;
     position: absolute;
-    top: 19%;
+    top: 8%;
     width: 75%;
 
 }
@@ -41,9 +41,8 @@ bio: |
 }
 
 .entry {
-    width: 35%;
-    float: left;
-    font-size: .4em;
+    width: 85%;
+    float: none;
     text-transform: uppercase;
     font-family: 'Inconsolata', monospace;
     /* color: #8553FB; */
@@ -51,9 +50,10 @@ bio: |
     letter-spacing: .08em;
     background-color: #0affa8;
     padding: 2em;
-    margin-right: 3em;
-    margin-bottom: 2em;
     text-align: left;
+    font-size: .6em;
+    margin: 0 auto 2em;
+
     
 }
 
@@ -80,18 +80,30 @@ bio: |
 
 @media only screen and (min-width: 768px) {
 
-    .section-intro .title-info {
+.section-intro .title-info {
   
     width: 38%;
+    top: 19%;
 
 }
 
-
+.section img {
+    bottom: 7%;
+    right: 6%;
+}
 
 .entry {
     display: flex;
     flex-wrap: wrap;
-font-size: .6em;
+    width: 35%;
+    float: left;
+    margin: 0 3em  0 0;
+
+}
+
+.entry-2 {
+    float: right;
+    margin: 0 0 0 3em;
 }
 
 .entry p {

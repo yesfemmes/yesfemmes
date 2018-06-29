@@ -11,7 +11,7 @@ permalink: /about/
 
     <p>YES FEMMES was conceived of first as a reading series by Sam Cohen and Gina Abelkop, while they were <span class="highlight-green">floating together in the ocean</span> off the coast of a Malibu beach. Its digital iteration is made in northeast Los Angeles, edited by Sam Cohen and designed by Sandra Rosales.</p>
 
-    <p>Submissions, pitches, and inquiries at yesfemmes@gmail.com. </p>
+   
 
   </div>
 

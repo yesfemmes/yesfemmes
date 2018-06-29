@@ -46,7 +46,7 @@
 </div>
 <div class="main-menu side-nav">
 <nav>
-  <div class="menu-item-wrapper cv">
+  <div class="menu-item-wrapper cvh">
   <h1><a href="/">Home</a></h1>
   <h1><a href="/issues">Issues</a></h1>
   <h1><a href="/about">About</a></h1>
@@ -314,7 +314,7 @@
  
 
 <p><a href="/issues/fandom/reperforming-mendieta">&xlarr;  </a></p>
-<p><a href="/issues/fandom/on-mysteria-hds-mystical-hysterical-poetics">&xrarr;</a></p>
+<p><a href="/issues/fandom/on-mysteria-hds-mystical-hysterical-poetics">&#x27F6;</a></p>
 
 <script>
 /* post pagination keyboard shortcuts */
@@ -372,6 +372,10 @@ document.body.onkeyup = function(e){
     position: absolute;
 }
 
+img.thumb {
+  display: none;
+}
+
 
 @media only screen and (min-width: 768px) {
 
@@ -382,6 +386,10 @@ document.body.onkeyup = function(e){
     width: 50%;
     z-index: 100;
 
+}
+
+img.thumb {
+  display: block;
 }
 
 }
@@ -492,6 +500,7 @@ document.body.onkeyup = function(e){
   img.src = imgSrc;
   img.setAttribute("height", "64");
 img.setAttribute("width", "90");
+img.setAttribute("class", "thumb");
 img.style.left = randomX;
 img.style.top = randomY;
   

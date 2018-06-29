@@ -19,6 +19,9 @@ issue: fandom
     position: relative;
 }
 
+
+
+
 .title-notes {
   width: 60%;
   font-size: 1.5em;
@@ -42,8 +45,21 @@ issue: fandom
     position: absolute;
 }
 
+img.thumb {
+  display: none;
+}
+
 .main-img {
   width: 35%;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+img.thumb {
+  display: block;
+}
+
 }
 
 </style>
@@ -94,9 +110,10 @@ issue: fandom
     var randomY = Math.round(Math.random() * availH) + 'px';
     var randomX = Math.round(Math.random() * availW) + 'px';
 
-  img.src = imgSrc;
-  img.setAttribute("height", "61");
+img.src = imgSrc;
+img.setAttribute("height", "61");
 img.setAttribute("width", "90");
+img.setAttribute("class", "thumb");
 img.style.left = randomX;
 img.style.top = randomY;
   

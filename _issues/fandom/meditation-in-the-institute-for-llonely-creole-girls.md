@@ -137,7 +137,7 @@ In all universes reaching out to ask myself with is real.</p>
 <div class="section-three notes section">
     <div class="inner-section-wrapper">
     <div class="text-wrapper">
-         <p>TKatherine is a Gemini. That's really all you need to know. Her work varies by context, and often exists simultaneously in different forms. Mostly writing, painting and performance. She likes viscous liquids and soft objects, and her material practice currently centers around chocolate, milk and oil. She likes to talk about colorism, class, labor and belief mostly. She is from Trinidad and Tobago and recently graduated from UC - San Diego with an MFA in Writing. Hit her up at  <a href="http://www.katherineatkatherine.com">www.katherineatkatherine.com</a> if you want her to experimentally read your cards. Seriously.</p>
+         <p>Katherine is a Gemini. That's really all you need to know. Her work varies by context, and often exists simultaneously in different forms. Mostly writing, painting and performance. She likes viscous liquids and soft objects, and her material practice currently centers around chocolate, milk and oil. She likes to talk about colorism, class, labor and belief mostly. She is from Trinidad and Tobago and recently graduated from UC - San Diego with an MFA in Writing. Hit her up at  <a href="http://www.katherineatkatherine.com">www.katherineatkatherine.com</a> if you want her to experimentally read your cards. Seriously.</p>
 
 </div></div></div>
     

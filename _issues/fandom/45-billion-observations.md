@@ -35,6 +35,10 @@ bio: |
     position: absolute;
 }
 
+img.thumb {
+  display: none;
+}
+
 
 @media only screen and (min-width: 768px) {
 
@@ -45,6 +49,10 @@ bio: |
     width: 50%;
     z-index: 100;
 
+}
+
+img.thumb {
+  display: block;
 }
 
 }
@@ -145,6 +153,7 @@ bio: |
   img.src = imgSrc;
   img.setAttribute("height", "64");
 img.setAttribute("width", "90");
+img.setAttribute("class", "thumb");
 img.style.left = randomX;
 img.style.top = randomY;
   

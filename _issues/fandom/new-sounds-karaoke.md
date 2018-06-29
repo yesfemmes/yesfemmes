@@ -11,15 +11,10 @@ bio: |
 
 <style>
 
-
-
-
-
-
 .section-intro .inner-section-wrapper {
     background: #8553FB;
-    width: 75%;
-    height: 65vh;
+    width: 90%;
+    height: 155%;
     box-shadow: 0 0 2em #0affa8;
    
 
@@ -33,9 +28,10 @@ bio: |
 
 .section-intro .text-wrapper {
     position: absolute;
-    width: 50%;
+    width: 75%;
     color: white;
-    top: 37%;
+    top: 23%;
+    left: 10%;
 }
 
 
@@ -59,7 +55,22 @@ bio: |
     width: 75%;
 }
 
+@media only screen and (min-width: 768px) {
 
+.section-intro .inner-section-wrapper {
+    
+    width: 75%;
+    height: 75vh;
+}
+
+.section-intro .text-wrapper {
+    
+    width: 50%;
+    top: 30%;
+    left: auto;
+}
+
+}
 
 
 
@@ -77,7 +88,6 @@ bio: |
 </div>
 </div><!-- /section-intro -->
 
-</div>
 <div class="section-main section full-height flex-center">
                 <div class="inner-section-wrapper">
 <div class="video-wrapper"><div class="video" data-type="vimeo" data-video-id="27051838"></div></div>
